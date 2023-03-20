@@ -6,9 +6,15 @@ import ValidCMD from "./ValidCMD";
 const NewLine = () => {
   const [cmd, setCmd] = useState("");
   const [output, setOutput] = useState("");
-
   const enter = () => {
-    setOutput((prevCMD) => `${prevCMD}> \n ${ValidCMD(cmd)} \n`);
+    if (cmd === "clear") {
+      setOutput("");
+      setCmd("");
+      return;
+    }
+
+    setOutput((prevCMD) => prevCMD + "> " + ValidCMD(cmd) + "\n");
+    console.log(output);
     setCmd("");
   };
   const change = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,7 +34,7 @@ const NewLine = () => {
         onChange={change}
         autoFocus
       />
-      <h1 className="text-white">{output}</h1>
+      <div className="text-white">{output}</div>;
     </>
   );
 };
