@@ -72,19 +72,19 @@ export const projects: Project[] = [
 export const skillGroups = [
   {
     title: 'Languages',
-    skills: ['TypeScript', 'Python', 'Rust', 'Go', 'Java', 'C', 'SQL'],
+    skills: ['TypeScript', 'Python', 'Java', 'C++', 'SQL'],
   },
   {
     title: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'Vite', 'Framer Motion'],
+    skills: ['React', 'Next.js', 'Tailwind CSS', 'Vite'],
   },
   {
     title: 'Backend & Systems',
-    skills: ['Node.js', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'gRPC', 'Linux'],
+    skills: ['Node.js', 'Django', 'Java Spring', 'PostgreSQL', 'Docker', 'Linux'],
   },
   {
     title: 'Tools & Practice',
-    skills: ['Git', 'GitHub Actions', 'AWS', 'Figma', 'TDD', 'Agile'],
+    skills: ['Git', 'GitHub Actions', 'AWS', 'Figma'],
   },
 ]
 
