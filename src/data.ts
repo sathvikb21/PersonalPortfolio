@@ -1,7 +1,7 @@
 // ── Edit this file to make the portfolio yours ──────────────────────────────
 
 export const profile = {
-  name: 'Sathvik',
+  name: 'Sathvikb21',
   fullName: 'Sathvik Bhavaraju',
   role: 'Computer Science Student',
   school: 'University of Cincinnati',
