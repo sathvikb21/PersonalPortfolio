@@ -8,7 +8,7 @@ export const profile = {
   gradYear: '2029',
   location: 'Cincinnati, OH',
   email: 'sathvik21@gmail.com',
-  tagline: 'I build software that feel effortless.',
+  tagline: 'I build software that feels effortless.',
   intro:
     'Junior studying computer science with a focus on systems and human-centered design. I like working at the seam where rigorous engineering meets product taste — distributed systems by day, pixel-pushing by night.',
   resumeUrl: '/resume.pdf',
