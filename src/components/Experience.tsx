@@ -33,7 +33,11 @@ export function Experience() {
                       {item.title}
                     </h3>
                     <p className="text-sm font-medium text-accent">{item.org}</p>
-                    <p className="mt-3 text-sm leading-relaxed text-fg-muted">{item.description}</p>
+                    {item.description.map((description) => (
+                      <p key={description} className="mt-3 text-sm leading-relaxed text-fg-muted">
+                        {description}
+                      </p>
+                    ))}
                   </div>
                 </div>
               </div>

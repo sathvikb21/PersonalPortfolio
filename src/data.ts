@@ -2,19 +2,19 @@
 
 export const profile = {
   name: 'Sathvik',
-  fullName: 'Sathvik Anand',
+  fullName: 'Sathvik Bhavaraju',
   role: 'Computer Science Student',
-  school: 'University of Washington',
-  gradYear: '2027',
-  location: 'Seattle, WA',
-  email: 'sathvik@example.com',
-  tagline: 'I build software that feels effortless.',
+  school: 'University of Cincinnati',
+  gradYear: '2029',
+  location: 'Cincinnati, OH',
+  email: 'sathvik21@gmail.com',
+  tagline: 'I build software that feel effortless.',
   intro:
     'Junior studying computer science with a focus on systems and human-centered design. I like working at the seam where rigorous engineering meets product taste — distributed systems by day, pixel-pushing by night.',
   resumeUrl: '/resume.pdf',
   socials: {
-    github: 'https://github.com/sathvik',
-    linkedin: 'https://linkedin.com/in/sathvik',
+    github: 'https://github.com/sathvikb21',
+    linkedin: 'https://linkedin.com/in/sathvik-bhavaraju',
     twitter: 'https://x.com/sathvik',
   },
 }
@@ -22,7 +22,6 @@ export const profile = {
 export const stats = [
   { value: '12+', label: 'Projects shipped' },
   { value: '3', label: 'Internships & research roles' },
-  { value: '2x', label: 'Hackathon winner' },
   { value: '4k+', label: 'GitHub contributions' },
 ]
 
@@ -113,50 +112,43 @@ export type TimelineItem = {
   range: string
   title: string
   org: string
-  description: string
+  description: string[]
   kind: 'work' | 'education'
 }
 
 export const timeline: TimelineItem[] = [
   {
-    range: 'Jun 2026 — Sep 2026',
+    range: 'May 2026 — Aug 2026',
     title: 'Software Engineering Intern',
-    org: 'Stripe',
-    description:
-      'Payments infrastructure team. Built an idempotency-key auditing pipeline processing 40M events/day and cut false-positive alerts by 60%.',
+    org: 'Kentucky Farm Bureau',
+    description: [
+      '• Developed a mobile photo upload application (React/Java Spring) that reduced total upload time by 80% compared to the previous application, now deployed statewide across all claims adjusters',
+      '• Built a reusable React template with pre-configured architecture for company-wide use, adopted by 2 new projects to date and reducing setup time for future development',
+      '• Designed and built a Power Apps/React tool that digitized a manual claims approval form, adding an analytics dashboard with charts to visualize submission data and streamline the approval workflow for the claims department',
+    ],
     kind: 'work',
   },
   {
-    range: 'Jan 2026 — Present',
-    title: 'Undergraduate Researcher',
-    org: 'Systems Lab, UW CSE',
-    description:
-      'Researching speculative page prefetching for memory-tiered servers under Prof. Chen. Benchmarking against TPP on CXL-emulated hardware.',
-    kind: 'work',
-  },
-  {
-    range: 'Jun 2025 — Sep 2025',
+    range: 'Dec 2024 — May 2026',
     title: 'Software Engineering Intern',
-    org: 'Redfin',
-    description:
-      'Shipped a map-clustering rewrite in the listings search experience, improving render time on dense metros by 3.2x.',
+    org: 'Castellan Group',
+      description: [
+      '• Refactored a legacy Django app into a Django REST API, improving system modularity and scalability by 40% and enabling new backend services',
+      '• Designed backend integrations and clean REST endpoints/data models to support a new React front end, improving reliability and performance',
+      '• Configured a GitHub Actions CI/CD pipeline and integrated Azure cloud services (databases, storage, app services), cutting release time by 30% and boosting scalability and observability'
+    ],
     kind: 'work',
   },
   {
-    range: 'Sep 2024 — Present',
-    title: 'Teaching Assistant — Data Structures',
-    org: 'UW Computer Science',
-    description:
-      'Lead weekly sections of 40 students, hold office hours, and co-wrote an autograder used across 600+ enrollments per quarter.',
+    range: 'Mar 2024 — Aug 2024',
+    title: 'Software Engineering Intern',
+    org: 'Stored Value Solutions',
+    description: [
+      '• Developed and optimized the Web Balance Inquiry (WBI) platform (React + Java Spring), improving performance and satisfaction for 20+ client companies',
+      '• Enhanced the E-Gift Card (EGC) platform (Java Spring Tiles), improving backend functionality, data flow, and UI to boost online transactions',
+      '• Resolved 80+ production service requests and deployed a project-wide testing pipeline with an external partner, cutting pre-release defects by 15%',
+    ],
     kind: 'work',
-  },
-  {
-    range: '2023 — 2027',
-    title: 'B.S. Computer Science',
-    org: 'University of Washington',
-    description:
-      'GPA 3.9. Coursework: Operating Systems, Distributed Systems, Machine Learning, Databases, Computer Networks, Algorithms.',
-    kind: 'education',
   },
 ]
 

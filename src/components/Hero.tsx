@@ -12,7 +12,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-60 dark:bg-emerald-400" />
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400" />
             </span>
-            Open to Summer 2027 internships
+            Open to Fall 2027 internships
           </span>
         </Reveal>
 
@@ -48,6 +48,7 @@ export function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
+              target="_blank"
               className="group flex items-center gap-3 rounded-full border border-line bg-shell py-2 pr-2 pl-6 font-medium text-fg backdrop-blur-sm transition-all duration-700 ease-spring hover:border-fg/30 active:scale-[0.98]"
             >
               Résumé
