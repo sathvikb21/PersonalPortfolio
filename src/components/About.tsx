@@ -15,9 +15,9 @@ export function About() {
               <div className="card-core flex h-full flex-col justify-between rounded-[calc(2rem-0.5rem)] bg-card p-8 sm:p-10">
                 <p className="text-lg leading-relaxed text-fg">{profile.intro}</p>
                 <p className="mt-8 text-sm leading-relaxed text-fg-muted">
-                  Outside of class you'll find me at hackathons, contributing to open source, or
-                  explaining recursion to someone for the fourth time as a TA — which, honestly,
-                  is where I learned the most.
+                Outside of class, you’ll usually find me refereeing soccer games, on the pickleball or 
+                tennis courts pretending I’m way more consistent than I am, or playing video games and 
+                blaming the keyboard when things go south
                 </p>
               </div>
             </div>

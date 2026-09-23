@@ -20,9 +20,9 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '12+', label: 'Projects shipped' },
+  { value: '3+', label: 'Projects shipped' },
   { value: '3', label: 'Internships & research roles' },
-  { value: '4k+', label: 'GitHub contributions' },
+  { value: '700+', label: 'GitHub contributions' },
 ]
 
 export type Project = {
@@ -38,54 +38,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Driftline',
-    description:
-      'A real-time collaborative whiteboard with CRDT-based sync. Handles 200+ concurrent cursors with sub-50ms latency over WebSockets.',
-    tags: ['TypeScript', 'CRDTs', 'WebSockets', 'Canvas'],
-    year: '2026',
-    href: 'https://github.com/sathvik/driftline',
+    title: 'CEAS Tribunal',
+    description: 
+      'A full-stack platform for managing CEAS Tribunal events, documents, submissions, and role-based workflows across 18 student committees.',
+    tags: ['TypeScript', 'React', 'Python', 'Django REST API'],
+    year: '2024-Present',
+    href: 'https://github.com/CEAS-Tribunal/Phoenix',
     accent: 'from-cyan-500/20 to-sky-500/5',
     size: 'large',
   },
   {
-    title: 'Pagefault',
+    title: 'Personal Portfolio',
     description:
-      'A teaching operating system kernel written in Rust — virtual memory, a round-robin scheduler, and a tiny ext2-like filesystem.',
-    tags: ['Rust', 'OS', 'x86-64'],
+    'A polished developer portfolio showcasing full-stack projects, technical experience, and practical impact across software engineering, cloud, and product-focused work.',
+    tags: ['Typescript', 'React', 'Tailwind CSS', 'Vite'],
     year: '2026',
-    href: 'https://github.com/sathvik/pagefault',
+    href: 'https://github.com/sathvikb21/PersonalPortfolio',
     accent: 'from-teal-500/20 to-emerald-500/5',
     size: 'tall',
   },
   {
-    title: 'Course Compass',
+    title: 'Captalize',
     description:
-      'Degree-planning web app used by 1,800+ students. Constraint solver suggests conflict-free schedules from live registrar data.',
-    tags: ['React', 'FastAPI', 'PostgreSQL'],
+    'An interactive financial-literacy learning platform that helps teens and young adults build money-management skills through guided content and progress tracking.',
+    tags: ['Typescript', 'React', 'Python', 'Django REST API'],
     year: '2025',
-    href: 'https://github.com/sathvik/course-compass',
+    href: 'https://github.com/capitalizelearning/CapitalizeWebsite',
     accent: 'from-sky-500/20 to-blue-500/5',
-    size: 'standard',
-  },
-  {
-    title: 'Tinygrad Notes',
-    description:
-      'An autograd engine and MLP library in ~500 lines of NumPy, with annotated notebooks explaining backprop from scratch.',
-    tags: ['Python', 'ML', 'NumPy'],
-    year: '2025',
-    href: 'https://github.com/sathvik/tinygrad-notes',
-    accent: 'from-blue-500/20 to-cyan-500/5',
-    size: 'standard',
-  },
-  {
-    title: 'Lockbox CLI',
-    description:
-      'An end-to-end encrypted secrets manager for dev teams. Age-based encryption, git-friendly storage, zero server required.',
-    tags: ['Go', 'Cryptography', 'CLI'],
-    year: '2024',
-    href: 'https://github.com/sathvik/lockbox',
-    accent: 'from-indigo-500/20 to-sky-500/5',
-    size: 'standard',
+    size: 'large',
   },
 ]
 
